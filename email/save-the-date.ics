@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ID Logistics//Global Convention 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:STANDARD
+DTSTART:19701025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:id-logistics-global-convention-2026@idlogistics.com
+DTSTAMP:20260511T160000Z
+DTSTART;TZID=Europe/Paris:20260616T140000
+DTEND;TZID=Europe/Paris:20260616T153000
+SUMMARY:ID Logistics Global Convention 2026 — Together for 25 More Years
+DESCRIPTION:You are invited to the ID Logistics Global Convention 2026.\n\nBroadcast live from one of our operational sites\, this convention will be the moment to share the key strategic messages and the main challenges ahead\, to hear directly from teams and countries around the world\, and to celebrate together what makes ID Logistics a truly different company.\n\nMore information will follow shortly\, including a dedicated email with the link to the registration website.\n\nEric Hémar & Christophe Satin\nPresident & Group Managing Director
+LOCATION:Live broadcast — link to follow
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ID Logistics Global Convention 2026 starts in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
